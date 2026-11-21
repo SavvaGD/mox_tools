@@ -192,3 +192,65 @@ a {
         padding-top: 30px;
     }
 }
+/* --- МОБИЛЬНАЯ АДАПТИВНОСТЬ (FIX) --- */
+
+/* Ограничиваем ширину сайта, чтобы текст не растягивался на широких экранах */
+.container {
+    max-width: 100%;
+    padding: 0 15px;
+}
+
+/* Hero-блок на мобильных */
+.hero-container {
+    flex-direction: column;
+    text-align: center;
+    gap: 30px;
+}
+
+.hero-title {
+    font-size: 48px;
+    line-height: 1.2;
+}
+
+.hero-subtitle {
+    font-size: 18px;
+}
+
+.hero-buttons {
+    flex-direction: column;
+    align-items: center;
+    gap: 12px;
+    width: 100%;
+}
+
+.btn {
+    width: 100%;
+    padding: 12px 0;
+    justify-content: center;
+}
+
+/* Блок "О нас" */
+.about-grid {
+    flex-direction: column-reverse;
+    gap: 40px;
+    text-align: center;
+}
+
+.about-image img {
+    width: 100%;
+    height: auto;
+    border-radius: 12px;
+    border: 1px solid #333;
+}
+
+/* Блок "Технологии" */
+.tech-grid {
+    grid-template-columns: 1fr;
+    gap: 24px;
+    text-align: center;
+}
+
+/* Футер и хедер */
+#site-header, #site-footer {
+    padding: 0 15px;
+}
