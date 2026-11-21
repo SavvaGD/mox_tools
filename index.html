@@ -4,10 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mox Tools</title>
-    
     <link rel="stylesheet" href="style.css">
     <link rel="icon" type="image/png" href="favicon.png">
-    
     <meta name="description" content="Mox Tools — независимый разработчик утилит и игр. Создаем инструменты для профессионалов и развлечения для души.">
 </head>
 <body>
@@ -17,6 +15,7 @@
 
     <main class="main-content">
         
+        <!-- Hero-блок -->
         <section class="hero">
             <div class="hero-container">
                 <div class="hero-text">
@@ -33,50 +32,49 @@
             </div>
         </section>
 
+        <!-- Блок "О нас" -->
+        <section class="about">
+            <div class="container">
+                <h2 class="section-title">Кто мы</h2>
+                <div class="about-grid">
+                    <div class="about-text">
+                        <p>Mox Tools — это независимая студия, основанная энтузиастами. Днем мы пишем утилиты, чтобы сделать разработку игр удобнее, а вечером — используем эти же инструменты для создания собственных игровых миров.</p>
+                        <p>Мы верим, что хороший инструмент должен быть незаметным, а хорошая игра — затягивать с первых минут. Никаких корпоративных рамок, только чистый код и страсть к своему делу.</p>
+                    </div>
+                    <div class="about-image">
+                        <img src="img/about-dev.jpg" alt="Разработчик за работой">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Блок "Технологии" -->
+        <section class="tech">
+            <div class="container">
+                <h2 class="section-title">Наш стек</h2>
+                <div class="tech-grid">
+                    <div class="tech-item">
+                        <h3>Игры</h3>
+                        <p>Unity, C#, собственные шейдеры. Мы фокусируемся на 2D-платформерах и атмосферных нарративных проектах.</p>
+                    </div>
+                    <div class="tech-item">
+                        <h3>Утилиты</h3>
+                        <p>Python для бэкенда, PyQt6 для десктопных редакторов, чистый JavaScript для веб-инструментов.</p>
+                    </div>
+                    <div class="tech-item">
+                        <h3>Сайт</h3>
+                        <p>Чистый HTML5, CSS3 и Vanilla JS. Никакого лишнего веса — сайт должен летать даже на старых смартфонах.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Раздел релизов (пустой, пока нет продуктов) -->
         <section class="releases">
             <div class="container">
                 <h2 class="section-title">Свежие релизы</h2>
                 <div class="releases-grid">
-                    
-                    <article class="release-card game-card">
-                        <a href="#" class="release-link">
-                            <div class="release-image">
-                                <img src="img/game-thumb-1.jpg" alt="Обложка игры 1">
-                                <span class="release-badge">Игра</span>
-                            </div>
-                            <div class="release-body">
-                                <h3 class="release-name">Название игры</h3>
-                                <p class="release-desc">Короткое описание проекта.</p>
-                            </div>
-                        </a>
-                    </article>
-
-                    <article class="release-card utility-card">
-                        <a href="#" class="release-link">
-                            <div class="release-image">
-                                <img src="img/util-thumb-1.jpg" alt="Превью утилиты">
-                                <span class="release-badge">Утилита</span>
-                            </div>
-                            <div class="release-body">
-                                <h3 class="release-name">Название утилиты</h3>
-                                <p class="release-desc">Короткое описание инструмента.</p>
-                            </div>
-                        </a>
-                    </article>
-
-                    <article class="release-card update-card">
-                        <a href="#" class="release-link">
-                            <div class="release-image">
-                                <img src="img/update-thumb.jpg" alt="Логотип обновления">
-                                <span class="release-badge">Обновление</span>
-                            </div>
-                            <div class="release-body">
-                                <h3 class="release-name">Mox Engine v2.0</h3>
-                                <p class="release-desc">Крупное обновление нашего движка.</p>
-                            </div>
-                        </a>
-                    </article>
-
+                    <!-- Здесь появятся карточки, когда будут игры -->
                 </div>
                 <div class="releases-actions">
                     <a href="catalog.html" class="btn btn-outline">Весь каталог</a>
@@ -88,8 +86,6 @@
 
     <div id="site-footer"></div>
 
-    <!-- Подключаем скрипт сборки -->
     <script src="incfah.js" defer></script>
-
 </body>
 </html>
